@@ -1,0 +1,120 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 63em;
+  background-image:linear-gradient(0deg, #B4C5E4, #FBFFF1);
+  font-size: 1.1em;
+}
+
+a{
+  font-family: 'Opens sans', sans-serif;  
+  text-decoration: none;
+  color: #3D52D5;
+  font-size: 1.2em;
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+abbr{
+  text-decoration: none;
+}
+
+hr{
+  margin: 1em 0;
+  color: #3c37447c;
+}
+
+#caixa{
+  width: 70em;
+  margin: auto;
+  padding: 3em;
+  border-radius: 1em;
+  background-color: white;
+  box-shadow: 0px 0px 10px #3c374434;
+}
+
+h1, h2{
+  font-family: 'Roboto', sans-serif;
+}
+
+h1{
+  color: #3C3744;
+}
+
+h2{  
+  color: #F5B841;
+  text-shadow: 1px 1px 1px #3C3744;
+}
+
+p{
+  font-family: 'Open Sans', sans-serif;
+}
+
+p#desc{
+  font-size: 1.5em;
+  text-align: center;
+}
+
+#titulo{
+  font-size: 6em;
+  text-align: center;
+}
+
+#eu-titulo{
+  margin-top: -.3em;
+  text-align: center;
+  font-size: 3em;
+}
+
+a#github{
+  color: #F5B841;
+  text-decoration: none;
+}
+
+section#html-list{
+  display: block;
+  text-align: center;
+}
+
+section#html-list h2{
+  margin-top: 1em;
+}
+
+ul{
+  margin-top: 1em;
+  font-family: 'Opens sans', sans-serif;
+}
+
+.lado-lista{
+display: inline-block;
+}
+
+.caixa-lista{
+  display: inline-flex;
+}
+
+.lado-lista li{
+  margin: 0 2em;
+  text-align: justify;
+}
+
+footer{
+  text-align: center;
+  border-top: 1px solid #3C3744;
+  margin-top: 2em;
+}
+
+footer p{
+  margin-top: 2em;
+  font-weight: bold;
+  color: #3C3744;
+}
+
