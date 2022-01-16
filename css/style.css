@@ -65,6 +65,42 @@ p#desc{
   text-align: center;
 }
 
+p.expli{
+  width: 300px;
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  left: 25em;
+  text-align: justify;
+  bottom: 30em;
+  border: 1px solid #3C3744;
+}
+
+p.expli2{
+  width: 300px;
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  right: 25em;
+  text-align: justify;
+  bottom: 30em;
+  border: 1px solid #3C3744;
+}
+
+.caixa-lista li:hover{
+  background-color: #f5b94169;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.caixa-lista li:hover > p{
+  display: block;
+}
+
 #titulo{
   font-size: 6em;
   text-align: center;
