@@ -17,6 +17,10 @@ body{
   font-size: 1.1em;
 }
 
+header{
+  margin-bottom: 3em;
+}
+
 a{
   font-family: 'Opens sans', sans-serif;  
   text-decoration: none;
@@ -85,6 +89,32 @@ p.expli{
   left: 25em;
   text-align: justify;
   bottom: 30em;
+  border: 1px solid #3C3744;
+}
+
+p.explic{
+  width: 300px;
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  left: 25em;
+  text-align: justify;
+  bottom: 15em;
+  border: 1px solid #3C3744;
+}
+
+p.explica{
+  width: 300px;
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  right: 25em;
+  text-align: justify;
+  bottom: 15em;
   border: 1px solid #3C3744;
 }
 
