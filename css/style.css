@@ -88,33 +88,7 @@ p.expli{
   position: absolute;
   left: 25em;
   text-align: justify;
-  bottom: 30em;
-  border: 1px solid #3C3744;
-}
-
-p.explic{
-  width: 300px;
-  background-color: lightgrey;
-  padding: 10px;
-  border-radius: 5px;
-  display: none;
-  position: absolute;
-  left: 25em;
-  text-align: justify;
-  bottom: 15em;
-  border: 1px solid #3C3744;
-}
-
-p.explica{
-  width: 300px;
-  background-color: lightgrey;
-  padding: 10px;
-  border-radius: 5px;
-  display: none;
-  position: absolute;
-  right: 25em;
-  text-align: justify;
-  bottom: 15em;
+  bottom: 25em;
   border: 1px solid #3C3744;
 }
 
@@ -127,9 +101,36 @@ p.expli2{
   position: absolute;
   right: 25em;
   text-align: justify;
-  bottom: 30em;
+  bottom: 25em;
   border: 1px solid #3C3744;
 }
+
+p.explic{
+  width: 300px;
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  left: 25em;
+  text-align: justify;
+  bottom: 12em;
+  border: 1px solid #3C3744;
+}
+
+p.explica{
+  width: 300px;
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  right: 25em;
+  text-align: justify;
+  bottom: 12em;
+  border: 1px solid #3C3744;
+}
+
 
 /*Formatação da caixa*/
 
