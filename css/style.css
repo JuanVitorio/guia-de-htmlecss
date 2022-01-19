@@ -64,7 +64,8 @@ ul{
 }
 
 #caixa{
-  width: 70em;
+  max-width: 1000px;
+  min-width: 250px;
   margin: auto;
   padding: 3em;
   border-radius: 1em;
@@ -147,14 +148,14 @@ p.explica{
 /*Formatação dos títulos*/
 
 #titulo{
-  font-size: 6em;
+  font-size: max(3.3em, 5vw );
   text-align: center;
 }
 
 #eu-titulo{
   margin-top: -.3em;
   text-align: center;
-  font-size: 3em;
+  font-size: max(2.8em, 5vw);
 }
 
 a#github{
